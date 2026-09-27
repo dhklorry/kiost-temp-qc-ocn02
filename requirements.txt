@@ -1,0 +1,6 @@
+# 제출본 생성 환경 (VERSIONS.txt 와 동일). 최소 요구 버전을 함께 표기합니다.
+numpy>=1.24          # 생성 환경 2.4.4
+pandas>=2.0          # 생성 환경 3.0.2
+scipy>=1.10          # 생성 환경 1.17.1
+scikit-learn>=1.4    # 생성 환경 1.8.0  (HistGradientBoostingRegressor 의 max_features 인자는 1.4 이상 필요)
+# lightgbm 은 필요하지 않습니다. 제출본은 scikit-learn 백엔드(--backend sklearn, 기본값)로 생성되었습니다.

@@ -1,0 +1,12 @@
+python 3.11.15
+numpy 2.4.4
+pandas 3.0.2
+scipy 1.17.1
+scikit-learn 1.8.0
+lightgbm  (미설치 — 제출본은 scikit-learn 백엔드로 생성됨)
+
+--- 재현성 확인 ---
+submission_auto.csv   MD5 18c45c88ac28447ee7e6aed0bb4dc90c   (--jobs 2)
+재실행 결과            MD5 18c45c88ac28447ee7e6aed0bb4dc90c   (--jobs 1, OMP_NUM_THREADS=1)
+→ 스레드 설정과 무관하게 바이트 단위 동일
+실행 시간: 2코어 94분 / 1코어 226분
